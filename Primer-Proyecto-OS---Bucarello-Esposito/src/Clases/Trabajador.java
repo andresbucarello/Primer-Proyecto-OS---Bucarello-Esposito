@@ -96,12 +96,12 @@ public class Trabajador extends Thread {
         }
 
         if (this.evaluarPosibilidadDeArmar()) {
-            // Evaluar si el siguiente capítulo debe ser un plot twist antes de incrementar
+            // Evaluar si el siguiente capítulo debe ser un antes de incrementar
             // numChapters
             System.out.println("Trigger");
             System.out.println(empresa.getComputadorasNormales());
             System.out.println(ImportantConstants.frecuenciaTG[company]);
-            boolean siguienteComputadoraTG = (empresa.getComputadorasNormales() == ImportantConstants.frecuenciaTG[company]);
+            boolean siguienteComputadoraTG = (empresa.getTriggerTG()== ImportantConstants.frecuenciaTG[company]);
             
             System.out.println(siguienteComputadoraTG);
 
@@ -113,6 +113,8 @@ public class Trabajador extends Thread {
                 System.out.println(empresa.getTriggerTG());
                 empresa.setComputadorasTG(empresa.getComputadorasTG() + 1);
                 empresa.setTriggerTG(0);
+                System.out.println(empresa.getTriggerTG());
+
             } else {
                 // Computadora regular
                 

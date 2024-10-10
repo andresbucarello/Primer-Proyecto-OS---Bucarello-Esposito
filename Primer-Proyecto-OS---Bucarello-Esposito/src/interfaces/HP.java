@@ -469,9 +469,9 @@ public class HP extends javax.swing.JFrame {
             .addGroup(jpanelAlmacenCPULayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jpanelAlmacenCPULayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(almacenCPU, javax.swing.GroupLayout.DEFAULT_SIZE, 28, Short.MAX_VALUE)
+                    .addComponent(almacenCPU)
                     .addComponent(scenaryLimit1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(scenaryTitle1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(scenaryTitle1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                 .addContainerGap())
         );
 
@@ -522,8 +522,8 @@ public class HP extends javax.swing.JFrame {
             .addGroup(jpanelAlmacenRAMLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jpanelAlmacenRAMLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(almacenRAM, javax.swing.GroupLayout.DEFAULT_SIZE, 28, Short.MAX_VALUE)
-                    .addComponent(animationsTitle1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(almacenRAM)
+                    .addComponent(animationsTitle1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                     .addComponent(animationsLimit1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -629,7 +629,7 @@ public class HP extends javax.swing.JFrame {
             .addGroup(jpanelAlmacenTGLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jpanelAlmacenTGLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(plotTwistTitle1, javax.swing.GroupLayout.DEFAULT_SIZE, 28, Short.MAX_VALUE)
+                    .addComponent(plotTwistTitle1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                     .addGroup(jpanelAlmacenTGLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(plotTwistLimit1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(almacenTG, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -833,7 +833,7 @@ public class HP extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, plotTwist2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(assemblerTitle)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(decreaceAssembler)
                 .addGap(18, 18, 18)
                 .addComponent(assemblerValues, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1182,7 +1182,7 @@ public class HP extends javax.swing.JFrame {
 
         driveTitle9.setFont(new java.awt.Font("Noteworthy", 1, 12)); // NOI18N
         driveTitle9.setForeground(new java.awt.Color(255, 255, 255));
-        driveTitle9.setText("Ganancia:");
+        driveTitle9.setText("Ingreso:");
         driveTitle9.setFocusable(false);
         jPanel1.add(driveTitle9, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 320, 84, -1));
 
@@ -1500,7 +1500,7 @@ public class HP extends javax.swing.JFrame {
                 .addComponent(jLabel7)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(icono4)
-                .addContainerGap(22, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         btn_nuevo_almacenLayout.setVerticalGroup(
             btn_nuevo_almacenLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

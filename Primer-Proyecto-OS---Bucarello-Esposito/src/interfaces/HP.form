@@ -197,9 +197,9 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="almacenCPU" pref="28" max="32767" attributes="0"/>
+                          <Component id="almacenCPU" max="32767" attributes="0"/>
                           <Component id="scenaryLimit1" alignment="0" max="32767" attributes="0"/>
-                          <Component id="scenaryTitle1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="scenaryTitle1" alignment="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -294,8 +294,8 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="almacenRAM" pref="28" max="32767" attributes="0"/>
-                          <Component id="animationsTitle1" max="32767" attributes="0"/>
+                          <Component id="almacenRAM" max="32767" attributes="0"/>
+                          <Component id="animationsTitle1" pref="0" max="32767" attributes="0"/>
                           <Component id="animationsLimit1" alignment="0" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
@@ -489,7 +489,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="plotTwistTitle1" pref="28" max="32767" attributes="0"/>
+                          <Component id="plotTwistTitle1" pref="0" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="plotTwistLimit1" alignment="3" max="32767" attributes="0"/>
                               <Component id="almacenTG" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -809,7 +809,7 @@
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="assemblerTitle" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="12" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                       <Component id="decreaceAssembler" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="assemblerValues" min="-2" pref="20" max="-2" attributes="0"/>
@@ -1413,7 +1413,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Ganancia:"/>
+            <Property name="text" type="java.lang.String" value="Ingreso:"/>
             <Property name="focusable" type="boolean" value="false"/>
           </Properties>
           <Constraints>
@@ -2046,7 +2046,7 @@
                       <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="icono4" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="22" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
